@@ -15,6 +15,7 @@
         font-optical-sizing: auto;
         font-weight: 500;
         font-style: normal;
+        font-size: 40px;
         font-variation-settings: "wdth" 100;
         color: rgb(255, 200, 100);
     }
@@ -24,6 +25,7 @@
         font-optical-sizing: auto;
         font-weight: 300;
         font-style: normal;
+        font-size: 35px;
         font-variation-settings: "wdth" 100;
         color: rgb(255, 200, 100);
     }
@@ -32,7 +34,8 @@
         font-family: "Roboto", sans-serif;
         font-optical-sizing: auto;
         font-weight: 300;
-        font-style: normal;
+        font-style: 20px;
+        font-size: 20px;
         font-variation-settings: "wdth" 90;
         color: rgb(255, 255, 255);
     }
@@ -41,7 +44,17 @@
         font-family: "Roboto", sans-serif;
         font-optical-sizing: auto;
         font-weight: 300;
-        font-size: medium;
+        font-size: 22px;
+        font-style: normal;
+        font-variation-settings: "wdth" 90;
+        color: rgb(255, 255, 255);
+    }
+
+    .roboto-list-link {
+        font-family: "Roboto", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-size: 20px;
         font-style: normal;
         font-variation-settings: "wdth" 90;
         color: rgb(255, 200, 100);
@@ -72,6 +85,52 @@
         align-items: flex-start;
     }
 
+    .specs-div {
+        background-color: ;
+        width: 80%;
+        padding: 0;
+        margin: 10%;
+        margin-left: 10%;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+
+    table, th, td {
+        margin-left: auto;
+        margin-right: auto;
+        border-collapse: collapse;
+        border: 1px solid rgb(126, 126, 126);
+        padding: 10px;
+        color: rgb(255, 200, 100);
+        font-family: "Roboto", sans-serif;
+    }
+
+    th {
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    td {
+        font-weight: 300;
+        font-size: 18px;
+    }
+
+    tr:nth-child(even) {
+        background-color: rgb(80,80,80);
+    }
+
+    p {
+        font-family: "Roboto", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 20px;
+        font-variation-settings: "wdth" 90;
+        color: rgb(255, 255, 255);
+        text-indent: 50px;
+    }
+
     a {
     text-decoration: none;
     }
@@ -90,65 +149,29 @@
 
     <div class="horizontal-div"> 
         <div>
-            <h3 class="roboto-text">14500 (AA)</h3>
-            <a class="roboto-list" href="hd10.html"><li type="none">Wurkkos HD10</a>
+            <h3 class="roboto-list">14500 (AA)</h3>
+            <a class="roboto-list-link" href="hd10.html"><li type="none">Wurkkos HD10</a>
         </div>
 
         <div>
-            <h3 class="roboto-text">18650</h3>
-            <li class="roboto-list" type="none">Sofirn SC18
-            <li class="roboto-list" type="none">Convoy S2+ (UV)
-            <li class="roboto-list" type="none">Sofirn IF24 Pro
+            <h3 class="roboto-list">18650</h3>
+            <li class="roboto-list-link" type="none">Sofirn SC18</li>
+            <li class="roboto-list-link" type="none">Convoy S2+ (UV)</li>
+            <li class="roboto-list-link" type="none">Sofirn IF24 Pro</li>
         </div>
 
         <div>
-            <h3 class="roboto-text">21700</h3>
-            <li class="roboto-list" type="none">Wurkkos TS25S
-            <li class="roboto-list" type="none">Convoy L21B
-            <li class="roboto-list" type="none">Wurkkos TS30S Pro
-            <li class="roboto-list" type="none">Convoy S21E
-            <li class="roboto-list" type="none">Sofirn C8L            
+            <h3 class="roboto-list">21700</h3>
+            <li class="roboto-list-link" type="none">Wurkkos TS25</li>
+            <li class="roboto-list-link" type="none">Convoy L21B</li>
+            <li class="roboto-list-link" type="none">Wurkkos TS30S Pro</li>
+            <li class="roboto-list-link" type="none">Convoy S21E</li>
+            <li class="roboto-list-link" type="none">Sofirn C8L</li>
         </div>
 
     </div>
 
-<!--  <div style="width: 80%; margin:0 auto; align-self: center;"> 
-        <ul class="horizontal-list">
-            <li class="roboto-text">14500 (AA)</li>
-            <li class="roboto-text">18650
-            <li class="roboto-text">21700</li>
-        </ul>
-    </div>
 
-
-    <ol type="1">
-        <li>Separe os ingredientes;</li>
-        <li>Coloque a água para ferver;</li>
-        <li>Acrescente o pó ao recipiente;</li>
-        <li>Coe o café;</li>
-        <li>Beba o café sem áçucar.</li>
-    </ol>
-
-    <ol type="I">
-        <li>Separe os ingredientes;</li>
-        <li>Coloque a água para ferver;</li>
-        <li>Acrescente o pó ao recipiente;</li>
-        <li>Coe o café;</li>
-        <li>Beba o café sem áçucar.</li>
-    </ol>
-
-    <dl>
-        <dt style="font-weight: bold;">Cappuccino</dt>
-        <dd>Bebida de leite vaporizada, com canela</dd>
-        <img src="Images/café.png" alt="Imagem de um pote de vidro com grãos de café" height="320">
-        <dt><h4>Mocha</h4></dt>
-        <dd>Café com leite com cobertura de chocolate</dd>
-        <img src="https://images.pexels.com/photos/350478/pexels-photo-350478.jpeg" 
-            alt="Imagem de um café com leite vaporizado" height="320">
-        <dt><h4>Café Latte</h4></dt>
-        <dd>Café com leite vaporizado e um toque de canela</dd>
-    </dl>
--->
 
 </body>
 
